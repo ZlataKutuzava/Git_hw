@@ -1,0 +1,14 @@
+Title: Backend - HTTP 304 - Cached request doesn't return body
+
+Issuetype: Bug
+
+Steps to reproduce:
+1. Login as admin and receive access token.
+2. Run GET /manifests request.
+3. Repeat step 2.
+
+Expected result:
+The response contains response with the manifest.
+
+Actual result:
+The resource returns HTTP 304 and empty body.
