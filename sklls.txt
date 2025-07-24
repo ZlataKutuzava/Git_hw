@@ -1,0 +1,5 @@
+Skills:
+JS/TS
+Playwright, WebdriverIO, Mocha, Cucumber
+API, UI test automation
+CI/CD, Docker
