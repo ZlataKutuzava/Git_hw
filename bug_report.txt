@@ -1,1 +1,13 @@
+Title: Backend - HTTP 504 - The product list is not returned
 
+Issuetype: Bug
+
+Steps to reproduce:
+1. Login as admin and receive access token.
+2. Run GET /products request.
+
+Expected result:
+The response contains products list.
+
+Actual result:
+Product list is not returned due to HTTP error with the code 504.
