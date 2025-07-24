@@ -1,0 +1,12 @@
+Title: Backend - HTTP 503- The endpoint is not available
+
+Issuetype: Bug
+
+Steps to reproduce:
+1. Login as admin and receive access token.
+
+Expected result:
+The response contains access token.
+
+Actual result:
+The resource is not available, HTTP 503 is returned.
